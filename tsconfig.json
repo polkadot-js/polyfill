@@ -1,0 +1,18 @@
+{
+  "extends": "@polkadot/dev/config/tsconfig",
+  "exclude": [
+    "build/**/*",
+    "**/build/**/*"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@polkadot/x-fetch": [ "packages/x-fetch/src" ],
+      "@polkadot/x-ws": [ "packages/x-ws/src" ]
+    },
+    "skipLibCheck": true,
+    "typeRoots": [
+      "./node_modules/@types"
+    ]
+  }
+}
