@@ -1,5 +1,5 @@
 {
-  "repository": "https://github.com/polkadot-js/common",
+  "repository": "https://github.com/polkadot-js/polyfill",
   "author": "Jaco Greeff <jacogr@gmail.com>",
   "license": "Apache-2",
   "private": true,
