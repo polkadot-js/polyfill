@@ -24,9 +24,7 @@
   "homepage": "https://github.com/polkadot-js/polyfill/tree/master/packages/x-fetch#readme",
   "dependencies": {
     "@babel/runtime": "^7.11.2",
+    "@types/websocket": "^1.0.1",
     "websocket": "^1.0.32"
-  },
-  "devDependencies": {
-    "@types/websocket": "^1.0.1"
   }
 }
