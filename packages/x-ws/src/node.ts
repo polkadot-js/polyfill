@@ -4,4 +4,8 @@
 
 import { w3cwebsocket } from 'websocket';
 
-export default (w3cwebsocket as unknown as typeof WebSocket);
+const fn = typeof WebSocket === 'undefined'
+  ? w3cwebsocket
+  : WebSocket;
+
+export default fn;
