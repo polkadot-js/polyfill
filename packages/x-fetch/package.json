@@ -4,9 +4,6 @@
   "description": "A cross-environment fetch replacement",
   "browser": "browser.js",
   "main": "node.js",
-  "keywords": [
-    "Polkadot"
-  ],
   "author": "Jaco Greeff <jacogr@gmail.com>",
   "maintainers": [
     "Jaco Greeff <jacogr@gmail.com>"
@@ -28,5 +25,8 @@
   "dependencies": {
     "@babel/runtime": "^7.11.2",
     "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.7"
   }
 }

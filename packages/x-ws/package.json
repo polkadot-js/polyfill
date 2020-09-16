@@ -4,9 +4,6 @@
   "description": "A cross-environment WebSocket replacement",
   "browser": "browser.js",
   "main": "node.js",
-  "keywords": [
-    "Polkadot"
-  ],
   "author": "Jaco Greeff <jacogr@gmail.com>",
   "maintainers": [
     "Jaco Greeff <jacogr@gmail.com>"
@@ -28,5 +25,8 @@
   "dependencies": {
     "@babel/runtime": "^7.11.2",
     "websocket": "^1.0.32"
+  },
+  "devDependencies": {
+    "@types/websocket": "^1.0.1"
   }
 }
