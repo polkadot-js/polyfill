@@ -2,10 +2,15 @@
 // This software may be modified and distributed under the terms
 // of the Apache-2.0 license. See the LICENSE file for details.
 
-import W3CWebSocket from 'websocket/W3CWebSocket';
+let fn: typeof WebSocket;
 
-const fn = typeof WebSocket === 'undefined'
-  ? W3CWebSocket
-  : WebSocket;
+if (typeof WebSocket === 'undefined') {
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment,@typescript-eslint/no-var-requires
+  const { w3cwebsocket } = require('websocket');
+
+  fn = w3cwebsocket as unknown as typeof WebSocket;
+} else {
+  fn = WebSocket;
+}
 
 export default fn;
