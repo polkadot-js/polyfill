@@ -6,7 +6,7 @@ import { TextEncoder as NodeTextEncoder } from 'util';
 
 export default typeof TextEncoder === 'undefined'
   ? class {
-    #encoder: TextEncoder;
+    #encoder: NodeTextEncoder;
 
     constructor () {
       this.#encoder = new NodeTextEncoder();
