@@ -1,6 +1,6 @@
 {
   "name": "@polkadot/x-ws",
-  "version": "0.2.7",
+  "version": "0.3.0",
   "description": "A cross-environment WebSocket replacement",
   "browser": "browser.js",
   "main": "node.js",
@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/polkadot-js/polyfill/issues"
   },
-  "homepage": "https://github.com/polkadot-js/polyfill/tree/master/packages/x-fetch#readme",
+  "homepage": "https://github.com/polkadot-js/polyfill/tree/master/packages/x-ws#readme",
   "dependencies": {
     "@babel/runtime": "^7.11.2",
     "@types/websocket": "^1.0.1",
