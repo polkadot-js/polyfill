@@ -5,19 +5,5 @@
 import BrowserTD from './browser';
 import NodeTD from './node';
 
-function checkBrowser () {
-  const td = new BrowserTD('utf-8');
-  const result = td.decode(new Uint8Array([1, 2, 3]));
-
-  console.log(result);
-}
-
-function checkNode () {
-  const td = new NodeTD('utf-8');
-  const result = td.decode(new Uint8Array([1, 2, 3]));
-
-  console.log(result);
-}
-
-checkBrowser();
-checkNode();
+console.log(new BrowserTD('utf-8').decode(new Uint8Array([1, 2, 3])));
+console.log(new NodeTD('utf-8').decode(new Uint8Array([1, 2, 3])));

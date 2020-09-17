@@ -5,19 +5,5 @@
 import BrowserTE from './browser';
 import NodeTE from './node';
 
-function checkBrowser () {
-  const te = new BrowserTE();
-  const result = te.encode('abc');
-
-  console.log(result);
-}
-
-function checkNode () {
-  const te = new NodeTE();
-  const result = te.encode('abc');
-
-  console.log(result);
-}
-
-checkBrowser();
-checkNode();
+console.log(new BrowserTE().encode('abc'));
+console.log(new NodeTE().encode('abc'));
