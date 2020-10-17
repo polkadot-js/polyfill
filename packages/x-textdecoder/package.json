@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/polkadot-js/polyfill/tree/master/packages/x-textdecoder#readme",
   "dependencies": {
-    "@babel/runtime": "^7.11.2"
+    "@babel/runtime": "^7.12.1"
   }
 }
