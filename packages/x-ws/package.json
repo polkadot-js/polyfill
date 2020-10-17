@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/polkadot-js/polyfill/tree/master/packages/x-ws#readme",
   "dependencies": {
-    "@babel/runtime": "^7.11.2",
+    "@babel/runtime": "^7.12.1",
     "@types/websocket": "^1.0.1",
     "websocket": "^1.0.32"
   }
